@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-4-grid-styl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap 4 grid system and layout utilities using Stylus",
   "main": "css/grid.min.css",
   "scripts": {
