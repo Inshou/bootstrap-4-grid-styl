@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-4-grid-stylus",
+  "name": "bootstrap-4-grid-styl",
   "version": "1.0.0",
   "description": "Bootstrap 4 grid system and layout utilities using Stylus",
   "main": "css/grid.min.css",
@@ -22,7 +22,7 @@
   "author": "Pavel Chernyshev <inshou@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Inshou/bootstrap-4-grid-styl/issues"
   },
   "homepage": "",
   "devDependencies": {
