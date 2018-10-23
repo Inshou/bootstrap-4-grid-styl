@@ -16,7 +16,7 @@ var isProduction = (yargs.argv.production === undefined) ? false : true;
 function styles() {
   return gulp.src(paths.styles.src)
     .pipe(plumber({errorHandle: onError}))
-    .pipe(gulpif(isProduction, sourcemaps.init()))
+    .pipe(gulpif(!isProduction, sourcemaps.init()))
     .pipe(stylus({
       "include css": true
     }))
@@ -31,7 +31,7 @@ function styles() {
     .pipe(gulpif(isProduction, rename({
       suffix: ".min"
     })))
-    .pipe(gulpif(isProduction, sourcemaps.write()))
+    .pipe(gulpif(!isProduction, sourcemaps.write()))
     .pipe(gulp.dest(paths.styles.dest))
     .pipe(notify({
       onLast: true,

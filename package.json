@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-4-grid-styl",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Bootstrap 4 grid system and layout utilities using Stylus",
   "main": "css/grid.min.css",
   "scripts": {
@@ -20,6 +20,10 @@
     "flex"
   ],
   "author": "Pavel Chernyshev <inshou@gmail.com>",
+  "contributors": [
+    "Sergey Levchenko (https://github.com/nuykon)",
+    "PR.Sape (http://pr.sape.ru)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Inshou/bootstrap-4-grid-styl/issues"
