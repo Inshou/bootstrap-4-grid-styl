@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-4-grid-styl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bootstrap 4 grid system and layout utilities using Stylus",
   "main": "css/grid.min.css",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Inshou/bootstrap-4-grid-stylus"
+    "url": "https://github.com/Inshou/bootstrap-4-grid-styl"
   },
   "keywords": [
     "gulp",
