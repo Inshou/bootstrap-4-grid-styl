@@ -13,6 +13,12 @@ https://v4-alpha.getbootstrap.com/layout/grid/#sass-mixins
 * spacing
 * visibility
 
+# Install #
+
+```bash
+npm install bootstrap-4-grid-styl
+```
+
 ## How to use in css file ##
 
 ```css
